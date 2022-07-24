@@ -29,6 +29,8 @@ Irwan:
 https://github.com/irwanx
 Rasel:
 https://github.com/raselcomel
+Asyraf:
+https://github.com/Radbotzbaru
 
 \`\`\`${conn.user.name}\`\`\`
 `
