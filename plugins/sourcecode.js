@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 
-    let txt = `Sourcecode : https://github.com/balhisyhrl/Anon-BOT/
+    let txt = `Sourcecode Ori : https://github.com/balhisyhrl/Anon-BOT/
 
 Sourcecode Developer Lain :
 Nurutomo: 
@@ -25,6 +25,8 @@ Irwan:
 https://github.com/irwanx
 Rasel:
 https://github.com/raselcomel
+Asyraf:
+https://github.com/Rafbotzbaru
 `
      conn.reply(m.chat, txt, m)
 }
