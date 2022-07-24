@@ -17,8 +17,8 @@ const defaultMenu = {
 ├ Waktu (WIB) : %WIB
 ├ Waktu (WITA) : %WITA
 ├ Waktu (WIT) : %WIT
-├ Github:
-│ %github
+├ Youtube:
+││https://bit.ly/3c0WJz9
 ├ *%npmname V.%version*
 └────
 
