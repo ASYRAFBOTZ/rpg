@@ -1,3 +1,4 @@
+
 let levelling = require('../lib/levelling')
 let fs = require('fs')
 let path = require('path')
@@ -17,11 +18,10 @@ const defaultMenu = {
 ├ Waktu (WIB) : %WIB
 ├ Waktu (WITA) : %WITA
 ├ Waktu (WIT) : %WIT
-├ Youtube:
-├ https://bit.ly/3c0WJz9
+├ Github:
+│ %github
 ├ *%npmname V.%version*
 └────
-
 〔 Random Ayat 〕
 %ayat
 %readmore`.trim(),
@@ -313,7 +313,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `Owner Gang😎`, `${_p}owner`, `💰Donasi Ngab💰`, `${_p}donasi`, `🎉Thanks To🎉, `${_p}? sc`)
+    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `Owner`, `${_p}owner`, `Info Command`, `${_p}infocommand`, `Top Fitur`, `${_p}? Top-Fitur`)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -349,16 +349,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Ga turu?"
   if (time >= 4) {
-    res = "Kontol Celup"
+    res = "Sarapan euy"
   }
   if (time > 10) {
-    res = "Patuhi Prokontol"
+    res = "Push rank kuy"
   }
   if (time >= 15) {
-    res = "Patuhi Prokontol"
+    res = "Ngantuk"
   }
   if (time >= 18) {
-    res = "Patuhi Prokontol"
+    res = "Time to turu brutal"
   }
   return res
 }
