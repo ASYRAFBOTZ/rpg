@@ -143,8 +143,8 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Hai, @user!\nSelamat datang di grup @subject\n\n@desc'
-  conn.bye = 'Selamat tinggal @user!'
+  conn.welcome = 'Hai, @user Began G Guna\nWelcome To Alam Neraka\n\nMASUK KANDANG BOT, BANYAK BOT DOWNLOADER, RPG, STICKER, TEBAK, DLL\nGROUP 1:\nhttps://bit.ly/3ax9GjJ\nGROUP 2:\nhttps://bit.ly/3yuGWAi\n\nGROUP 3:\nhttps://bit.ly/3RlgwJQ\n\nJan Lupa Patuhi Prokontol Lalu Lintas'
+  conn.bye = 'Bye @user,\nTetap Putus Asa\nJangan Semangat\nDan Jadilah Anak Yatim\n\nJan Lupa Patuhi Prokontol Lalu Lintas'
   conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
