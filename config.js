@@ -45,9 +45,9 @@ global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/balhisyhrl"
-global.gcbot = 'ɢʀᴏᴜᴩ ʙᴏᴛ'
-global.gcurl = "https://chat.whatsapp.com/DIN194DOTYoKckC3F4Y5Vu"
+global.urlnya = "https://www.instagram.com/asyrafsixyouu"
+global.gcbot = 'KANDANG BOTZ'
+global.gcurl = "https://chat.whatsapp.com/CRrj0z3HgeX39XHNUt0M9V"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
