@@ -18,7 +18,7 @@ const defaultMenu = {
 ├ Waktu (WITA) : %WITA
 ├ Waktu (WIT) : %WIT
 ├ Youtube:
-││https://bit.ly/3c0WJz9
+├ https://bit.ly/3c0WJz9
 ├ *%npmname V.%version*
 └────
 
@@ -313,7 +313,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `Owner`, `${_p}owner`, `Info Command`, `${_p}infocommand`, `Top Fitur`, `${_p}? Top-Fitur`)
+    await conn.send3TemplateButtonImg(m.chat, fla + teks, text.trim(), wm, `Owner Gang😎`, `${_p}owner`, `💰Donasi Ngab💰`, `${_p}donasi`, `🎉Thanks To🎉, `${_p}? sc`)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -349,16 +349,16 @@ function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
   res = "Ga turu?"
   if (time >= 4) {
-    res = "Sarapan euy"
+    res = "Kontol Celup"
   }
   if (time > 10) {
-    res = "Push rank kuy"
+    res = "Patuhi Prokontol"
   }
   if (time >= 15) {
-    res = "Ngantuk"
+    res = "Patuhi Prokontol"
   }
   if (time >= 18) {
-    res = "Time to turu brutal"
+    res = "Patuhi Prokontol"
   }
   return res
 }
